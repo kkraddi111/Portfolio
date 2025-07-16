@@ -205,8 +205,8 @@ export default function Portfolio() {
               <Image
                 src="/Kiran-avatar.jpg"
                 alt="Kiran Raddi Avatar"
-                width={160}
-                height={160}
+                width={200}
+                height={200}
                 className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto object-cover border-4 border-border shadow-lg"
                 priority
               />
