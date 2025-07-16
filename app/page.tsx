@@ -394,13 +394,20 @@ export default function Portfolio() {
                 <h4 className="text-lg font-semibold mb-2">Resume</h4>
                 <div className="flex gap-4 flex-wrap">
                   <Button variant="outline" asChild>
-                    <a href="/Kiran_Raddi_Resume.pdf" target="_blank" rel="noreferrer">
+                    <a 
+                      href="https://drive.google.com/file/d/1Kyxv4MxUo3vUOQ1K9wUhe9duYhLcbf9-/view?usp=sharing" 
+                      target="_blank" 
+                      rel="noreferrer"
+                    >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       View Online
                     </a>
                   </Button>
                   <Button variant="outline" asChild>
-                    <a href="/Kiran_Raddi_Resume.pdf" download>
+                    <a 
+                      href="https://drive.google.com/uc?export=download&id=1Kyxv4MxUo3vUOQ1K9wUhe9duYhLcbf9-"
+                      download="Kiran_Raddi_Resume.pdf"
+                    >
                       <Download className="w-4 h-4 mr-2" />
                       Download PDF
                     </a>
